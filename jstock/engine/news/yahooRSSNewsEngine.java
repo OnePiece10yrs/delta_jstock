@@ -61,7 +61,7 @@ public class yahooRSSNewsEngine {
    }
     
     List<NewsItem> listItems = new ArrayList<NewsItem>(); 
-    private final String yahooNewsURL="http://finance.yahoo.com/rss/headline?s=";
+    private static final String yahooNewsURL="http://finance.yahoo.com/rss/headline?s=";
     
     private static final Log log = LogFactory.getLog(yahooRSSNewsEngine.class);
 }
